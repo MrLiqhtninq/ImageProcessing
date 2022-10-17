@@ -1,5 +1,9 @@
 # ImageProcessing
-University 4th class Image Processing lesson
+University 4th class Image Processing 
 
-pip install -r requirements.txt
-python index.py
+- [x] Week3 Homework
+- [ ] Week4 Homework
+- [ ] Week5 Homework
+
+* pip install -r requirements.txt
+* python index.py
