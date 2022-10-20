@@ -5,8 +5,8 @@ from rich.console import Console
 from rich.theme import Theme 
 from rich.markdown import Markdown
 
-from Week3.index import Main
-#from Week4.week4 import homework4
+from Week3.index import Week3
+from Week4.index import Week4
 #from Week5.week5 import homework5
 #from Week6.week6 import homework6
 #from Week7.index import homework7s
@@ -46,7 +46,10 @@ def main():
         md2 = Markdown(MARKDOWN2)
         console.print(md2)
         b = input()
-        Main(b)
+        Week3(b)
+    elif a == "4":
+        clear()
+        Week4()
     else:
         clear()   
         console.print("Diğer haftaların ödevleri mevcut değil!",style="error")
