@@ -7,7 +7,7 @@ from rich.markdown import Markdown
 
 from Week3.index import Week3
 from Week4.index import Week4
-#from Week5.week5 import homework5
+from Week5.index import Week5
 #from Week6.week6 import homework6
 #from Week7.index import homework7s
 custom_theme= Theme({"success":"green","error":"bold red","none":"bold blue"})
@@ -50,6 +50,9 @@ def main():
     elif a == "4":
         clear()
         Week4()
+    elif a == "5":
+        clear()
+        Week5()
     else:
         clear()   
         console.print("Diğer haftaların ödevleri mevcut değil!",style="error")

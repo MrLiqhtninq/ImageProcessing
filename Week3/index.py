@@ -8,10 +8,10 @@ console = Console(theme=custom_theme)
 
 
 def Week3(id):
-    url = "https://www.youtube.com/watch?v=1oYLqu_Yp6I"
-    video = pafy.new(url)
-    best = video.getbest(preftype="mp4")
-    source = cv2.VideoCapture(best.url)
+    # url = "https://www.youtube.com/watch?v=1oYLqu_Yp6I"
+    # video = pafy.new(url)
+    # best = video.getbest(preftype="mp4")
+    source = cv2.VideoCapture(0)
     console.print("Çıkmak için CTRL+C",style="error")
     try:
         while True:
