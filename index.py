@@ -1,5 +1,4 @@
 import os
-import sys
 
 from rich.console import Console
 from rich.theme import Theme 
@@ -32,29 +31,25 @@ MARKDOWN2 = """
 
 *
 """
-def clear():
-    if sys.platform == 'win32':
-        os.system('cls')  
-    else:
-        os.system('clear')
+    
 def main():
     md = Markdown(MARKDOWN)
     console.print(md)
     a = input()
     if a == "3":
-        clear()
+        os.system('clear')
         md2 = Markdown(MARKDOWN2)
         console.print(md2)
         b = input()
         Week3(b)
     elif a == "4":
-        clear()
+        os.system('clear')
         Week4()
     elif a == "5":
-        clear()
+        os.system('clear')
         Week5()
     else:
-        clear()   
+        os.system('clear')   
         console.print("Diğer haftaların ödevleri mevcut değil!",style="error")
         main()
 
