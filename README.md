@@ -2,8 +2,9 @@
 University 4th class Image Processing 
 
 - [x] Week3 Homework
-- [ ] Week4 Homework
-- [ ] Week5 Homework
+- [x] Week4 Homework
+- [x] Week5 Homework
+- [x] Homework
 
 * pip install -r requirements.txt
 * python index.py
